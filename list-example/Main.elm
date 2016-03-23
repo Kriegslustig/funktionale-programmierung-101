@@ -2,8 +2,18 @@ module Main where
 
 import Html exposing ( table, thead, th, tbody, tr, td, text )
 import Html.Attributes exposing ( class )
-import List exposing (..)
+import List exposing ( filter, map )
 import Elements exposing (elements)
+
+{-
+
+Your task:
+- Add a row index
+- it should count from 1-n
+- Sort the people by rank
+- Filter them by rank (> 2)
+
+-}
 
 genTd element =
   tr
