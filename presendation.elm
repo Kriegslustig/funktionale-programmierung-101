@@ -6,6 +6,11 @@
 
 
 
+/*
+ * Installation
+ */
+
+elm-lang.org
 
 
 /*
@@ -91,8 +96,7 @@ newArray = List.filter(isBigEnough, array)
  * QUELLEN
  */
 [ 'Mein Kopf'
-, 'npmjs.com/package/immutable'
-, 'functionaljs.com'
+, 'elm-lang.org'
 ]
 
 
